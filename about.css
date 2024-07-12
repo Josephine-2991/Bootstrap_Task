@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Raleway", sans-serif;
+}
+.large-view{
+    width: 100%;  
+}
+
+#large-view-img{
+    border-radius: 5%;
+    object-fit: cover; 
+}
+
+.mission{
+    width: 100%;
+    text-align: justify;
+}
+
+.justify{
+    text-align: justify;
+}
+
+#kitchens-footer {
+    width: 5rem;
+    height: 4rem;
+}
+
+.about{
+    font-size: 1.5rem;
+}
+
+
+
+@media screen and(min-width:768px) {
+    .about {
+    font-size: 2rem;
+    }
+    .large-view {
+     width: 100%;
+
+    }
+    
+
+
+}
+
+@media screen and(min-width:992px) {
+    .about {
+    font-size: 2rem;
+    }
+    .large-view {
+    width: 100%;
+     align-items: none;
+    
+    
+    }
+
+    #large-view-img{
+        width: 50%;
+        object-fit: cover; 
+}
+    
+    
+
+    .mission{
+        width: 50%;
+        text-align: justify;
+    }
+}

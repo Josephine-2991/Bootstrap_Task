@@ -1,0 +1,23 @@
+.blog{
+    text-align: justify;
+    font-family: "Raleway", sans-serif;
+    
+    
+}
+body{
+    font-family:"Raleway", sans-serif;
+}
+
+
+#kitchens-footer {
+    width: 5rem;
+    height: 4rem;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

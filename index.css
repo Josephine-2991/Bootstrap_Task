@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:"Raleway", sans-serif;
+}
+.food{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kitchens-footer{
+    width:5rem;
+    height:4rem;
+}
+
+.cover{
+    width:18rem;
+
+
+}
+.Address{
+    align-items: center;
+}
+@media screen and(min-width:700px){
+ .cover {
+        width: 48%;
+    }
+    
+.Address {
+        align-items:baseline;
+        
+        
+    }
+}
+
+@media screen and(min-width:996px) {
+    .cover {
+        width: 30%;
+    }
+
+    .Address{
+            align-items: baseline;
+           
+     }
+ }
+
