@@ -21,3 +21,25 @@ body{
     align-items: center;
 
 }
+
+
+#blog-img-img{
+    height: 100%;
+    width: 100%;
+    border-radius:5%;
+}
+@media screen and(min-width:700px) {
+    
+}
+
+@media screen and(min-width:996px) {
+
+#blog-img-img {
+    width: 50%;
+    object-fit: cover;
+}
+.blog-text {
+    width: 50%;
+
+}
+}
